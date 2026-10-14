@@ -40,3 +40,29 @@ p {
     width: 100%;
     border-radius: 5px;
 }
+
+/* sajat innen */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li, a {
+    display: block;
+}
+
+nav ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background-color: gray;
+}
+
+nav ul li:hover {
+    background-color: black;
+}

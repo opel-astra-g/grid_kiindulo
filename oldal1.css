@@ -1,0 +1,14 @@
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+article div {
+    flex: 0 1 calc(33% - 10px);
+    min-width: 200px;
+    max-width: 250px;
+}
